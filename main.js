@@ -117,30 +117,30 @@ Onuser = {
 		check1 = 0,
 		check2 = 0,
 		card3 = 0;
-		if(card1 == 3 && card2 == 2 || card1 == 2 && card2 == 3){ // yasmine + sun = latino
+		if(card1 == 3 && card2 == 2 || card1 == 2 && card2 == 3){
 			document.getElementById(16).style.display = "block";
 			document.getElementById(16).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = 16;
 		}
-		if(card1 == 0 && card2 == 1 || card1 == 1 && card2 == 0){ // sword + body = blood
+		if(card1 == 0 && card2 == 1 || card1 == 1 && card2 == 0){
 			var card3 = 42;
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
 		}
-		if(card1 == 4 && card2 == 6 || card1 == 6 && card2 == 4){ // deutsch + beyond earth = i'll be back
+		if(card1 == 4 && card2 == 6 || card1 == 6 && card2 == 4){
 			var card3 = 34;
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
 		}
-		if(card1 == 3 && card2 == 6 || card1 == 6 && card2 == 3){ // yasmine + beyond earth = thesis
+		if(card1 == 3 && card2 == 6 || card1 == 6 && card2 == 3){
 			var card3 = 29;
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
 		}
-		if(card1 == 30 && card2 == 5 || card1 == 5 && card2 == 30){ // the singing ringing tree+internet=smart
+		if(card1 == 30 && card2 == 5 || card1 == 5 && card2 == 30){
 			var card3 = 28;
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
@@ -149,7 +149,7 @@ Onuser = {
 		check1 = 30,
 		check2 = 2,
 		card3 = 31;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // the singing ringing tree+sun=apple
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -157,7 +157,7 @@ Onuser = {
 		check1 = 13,
 		check2 = 5,
 		card3 = 12;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // banana+internet=If...
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -165,7 +165,7 @@ Onuser = {
 		check1 = 16,
 		check2 = 42,
 		card3 = 7;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // latino + blood = salsa
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -173,7 +173,7 @@ Onuser = {
 		check1 = 16,
 		check2 = 34,
 		card3 = 19;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // latino + I'll be back = tango
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -181,7 +181,7 @@ Onuser = {
 		check1 = 0,
 		check2 = 42,
 		card3 = 14;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // sword + blood = name of the wind
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -189,7 +189,7 @@ Onuser = {
 		check1 = 29,
 		check2 = 6,
 		card3 = 35;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // thesis + beyond earth = physics
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -197,7 +197,7 @@ Onuser = {
 		check1 = 1,
 		check2 = 34,
 		card3 = 26;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // body+I'll be back = skull
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -205,7 +205,7 @@ Onuser = {
 		check1 = 2,
 		check2 = 29,
 		card3 = 36;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // sun+thesis=apocalypse
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -213,7 +213,7 @@ Onuser = {
 		check1 = 33,
 		check2 = 28,
 		card3 = 17;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // Boreoeutheria+smart=rat
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -221,7 +221,7 @@ Onuser = {
 		check1 = 2,
 		check2 = 6,
 		card3 = 20;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // sun+beyond-earth=graveyard
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -229,7 +229,7 @@ Onuser = {
 		check1 = 13,
 		check2 = 28,
 		card3 = 44;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // banana+smart=smart banana
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -237,7 +237,7 @@ Onuser = {
 		check1 = 19,
 		check2 = 2,
 		card3 = 8;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // tango+sun=lea
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -245,7 +245,7 @@ Onuser = {
 		check1 = 20,
 		check2 = 19,
 		card3 = 9;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // graveyard+tango=vassili
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -253,7 +253,7 @@ Onuser = {
 		check1 = 35,
 		check2 = 42,
 		card3 = 39;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // physics+blood=portal
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -261,7 +261,7 @@ Onuser = {
 		check1 = 0,
 		check2 = 20,
 		card3 = 38;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // sword+graveyard=cross
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -269,7 +269,7 @@ Onuser = {
 		check1 = 44,
 		check2 = 31,
 		card3 = 22;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // smart banana+apple=smart fruits
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -277,7 +277,7 @@ Onuser = {
 		check1 = 3,
 		check2 = 9,
 		card3 = 10;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // yasmine+vassili=stupid game
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -285,7 +285,7 @@ Onuser = {
 		check1 = 8,
 		check2 = 19,
 		card3 = 15;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // lea+tango=marriage
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -293,7 +293,7 @@ Onuser = {
 		check1 = 12,
 		check2 = 38,
 		card3 = 43;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // If...+cross=false
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -301,7 +301,7 @@ Onuser = {
 		check1 = 43,
 		check2 = 16,
 		card3 = 37;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // false+latino=caucasian
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -309,7 +309,7 @@ Onuser = {
 		check1 = 8,
 		check2 = 16,
 		card3 = 23;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // lea+latino=beijinhos
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -317,7 +317,7 @@ Onuser = {
 		check1 = 22,
 		check2 = 12,
 		card3 = 25;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // smart fruits+If...= smart sexy fruits
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -325,7 +325,7 @@ Onuser = {
 		check1 = 19,
 		check2 = 35,
 		card3 = 11;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // tango+physics=lidia
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -333,7 +333,7 @@ Onuser = {
 		check1 = 10,
 		check2 = 32,
 		card3 = 18;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // stupid game+mountains=place hacking
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -341,7 +341,7 @@ Onuser = {
 		check1 = 43,
 		check2 = 36,
 		card3 = 41;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // false+apocalypse=eden garden
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -349,7 +349,7 @@ Onuser = {
 		check1 = 37,
 		check2 = 38,
 		card3 = 21;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // caucasian+cross=la croix
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -357,7 +357,7 @@ Onuser = {
 		check1 = 28,
 		check2 = 21,
 		card3 = 40;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // smart+la croix=biology
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -365,7 +365,7 @@ Onuser = {
 		check1 = 25,
 		check2 = 16,
 		card3 = 27;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // smart sexy fruits+latino=super smart sexy fruits
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -373,7 +373,7 @@ Onuser = {
 		check1 = 10,
 		check2 = 11,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // stupid game+lidia=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -382,7 +382,7 @@ Onuser = {
 		check1 = 20,
 		check2 = 18,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // graveyard+place hacking=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -391,7 +391,7 @@ Onuser = {
 		check1 = 31,
 		check2 = 41,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // apple+eden garden=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -400,7 +400,7 @@ Onuser = {
 		check1 = 40,
 		check2 = 1,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // biology+body=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -409,7 +409,7 @@ Onuser = {
 		check1 = 23,
 		check2 = 41,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // beijinhos+eden garden=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
@@ -418,7 +418,7 @@ Onuser = {
 		check1 = 27,
 		check2 = 23,
 		card3 = 24;
-		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){ // super smart sexy fruits+beijinhos=
+		if(card1 == check1 && card2 == check2 || card1 == check2 && card2 == check1){
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
