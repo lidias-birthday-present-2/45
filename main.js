@@ -471,7 +471,7 @@ Onload = {
 			for(var j = 0; j<Glob.countX; j++){
 				if(Cards[index]){
 					a = "<a target='_blank' href="+Cards[index].img+">full resolution</a>";
-					img = "<img id='"+Cards[index].nam+"' style='max-width: "+Glob.rectangleW+"px; max-height: "+(Glob.rectangleH-0)+"px; display: block' src='"+Cards[index].img+"'>";
+					img = "<img id='"+Cards[index].nam+"' style='max-width: "+Glob.rectangleW+"px; max-height: "+(Glob.rectangleH-0)+"px; display: none' src='"+Cards[index].img+"'>";
 					if(Cards[index].nam == 24){
 						a += "<div id='end-score'></div>";
 					}
