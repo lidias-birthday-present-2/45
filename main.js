@@ -72,7 +72,8 @@ Glob = {
 	countX: 9,
 	countY: 5,
 	togglCard: [],
-	endScore: 1
+	endScore: 1,
+	endScoreArr: []
 }
 
 window.onload = function(){
@@ -377,7 +378,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(1);
 		}
 		check1 = 20,
 		check2 = 18,
@@ -386,7 +387,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(2);
 		}
 		check1 = 31,
 		check2 = 41,
@@ -395,7 +396,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(3);
 		}
 		check1 = 40,
 		check2 = 1,
@@ -404,7 +405,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(4);
 		}
 		check1 = 23,
 		check2 = 41,
@@ -413,7 +414,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(5);
 		}
 		check1 = 27,
 		check2 = 23,
@@ -422,7 +423,7 @@ Onuser = {
 			document.getElementById(card3).style.display = "block";
 			document.getElementById(card3).parentNode.style.background = "rgb(182, 238, 255)";
 			delay = card3;
-			this.endScore();
+			this.endScore(6);
 		}
 
 
@@ -440,8 +441,14 @@ Onuser = {
 			return false;
 		}
 	},
-	endScore: function(){
-		// 1 out of 5
+	endScore: function(id){
+		var len = Glob.endScoreArr.length;
+		for(var i=0; i<len; i++){
+			if(Glob.endScoreArr[i] == id){
+				return;
+			}
+		}
+		Glob.endScoreArr.push(id);
 		if(Glob.endScore == 6){
 			document.getElementById("end-score").innerHTML = "win!";
 		}else{
@@ -464,7 +471,7 @@ Onload = {
 			for(var j = 0; j<Glob.countX; j++){
 				if(Cards[index]){
 					a = "<a target='_blank' href="+Cards[index].img+">full resolution</a>";
-					img = "<img id='"+Cards[index].nam+"' style='max-width: "+Glob.rectangleW+"px; max-height: "+(Glob.rectangleH-0)+"px; display: none' src='"+Cards[index].img+"'>";
+					img = "<img id='"+Cards[index].nam+"' style='max-width: "+Glob.rectangleW+"px; max-height: "+(Glob.rectangleH-0)+"px; display: block' src='"+Cards[index].img+"'>";
 					if(Cards[index].nam == 24){
 						a += "<div id='end-score'></div>";
 					}
